@@ -1,0 +1,33 @@
+/* Reset das configurações pré-definidas pelo navegador */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Configuração de variaveis para cores */
+html {
+  --white: #fafafa;
+  --light-blue: #0093dd;
+  --blue: #024a7f;
+  --overlay: #040911;
+  --area: #245a74;
+
+  --grey-dark: #4d5e77;
+  --grey-blue: #a1b2cd;
+  --grey-light: #e5eaf1;
+  --grey-medium: #d1d3d6;
+}
+
+body {
+  height: 100vh;
+  background: var(--white);
+}
+
+.menu-principal {
+  width: 100%;
+  background-color: var(--blue);
+  height: 50px;
+}
